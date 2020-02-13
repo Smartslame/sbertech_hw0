@@ -22,7 +22,7 @@ public class CircleTest {
     @Test
     public void getArea() {
         Circle circle = new Circle(new Point(0, 0), 5);
-        double expectedArea = 2 * Math.PI * 5;
+        double expectedArea = Math.PI * 25;
         Assert.assertEquals(BigDecimal.valueOf(expectedArea), BigDecimal.valueOf(circle.getArea()));
     }
 }
